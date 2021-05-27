@@ -6,15 +6,12 @@ import Layout from '../components/Layout'
 
 export default function Home({filteredCoins}) {
   return (
-    <div>
-      <Head>
-        <title>title</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Layout/>
+      <Layout>
+      <div className="coin_app">
       <SearchBar type="text" placeholder="Rechercher" />
       <CoinList filteredCoins={filteredCoins} />
-    </div>
+      </div>
+      </Layout>
   )
 }
 
