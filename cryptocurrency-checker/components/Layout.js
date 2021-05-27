@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-const Layout = ({ children, title = 'Crypto Tracker' }) => {
+const Layout = ({ children, title = 'Crypto Checker' }) => {
   return (
     <div className='layout'>
       <Head>
