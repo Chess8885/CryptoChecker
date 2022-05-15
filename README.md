@@ -1,4 +1,4 @@
-Le projet est hebergé sur https://crypto-checker.vercel.app/
+Project is hosted on https://crypto-checker.vercel.app/
 
 ## Getting Started
 
